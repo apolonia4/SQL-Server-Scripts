@@ -11,14 +11,14 @@ CREATE DATABASE TestDB2
 ON PRIMARY
 (NAME='TestDB_Part1',
 FILENAME=
-'C:\Users\vacomccoyj20\Documents\TestDB2_Part1.mdf',
+'C:\Users\xxx\Documents\TestDB2_Part1.mdf',
 SIZE=4,
 MAXSIZE=100,
 FILEGROWTH=1 ),
 FILEGROUP TestDB_Part2
 (NAME = 'TestDB_Part2',
 FILENAME =
-'C:\Users\vacomccoyj20\Documents\TestDB2_Part2.ndf',
+'C:\Users\xxx\Documents\TestDB2_Part2.ndf',
 SIZE = 4,
 MAXSIZE=100,
 FILEGROWTH=1 );
