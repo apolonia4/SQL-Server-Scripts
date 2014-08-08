@@ -41,10 +41,10 @@ AS
 	
 	--SEND MAIL
 	EXEC msdb.dbo.sp_send_dbmail
-		@recipients=N'VaNSOCSQLDbaJobs@va.gov',
+		@recipients=N'',
 		@subject=@MailSubject,
 		@body = @MailBody,
-		@profile_name = 'VANSOCWEBADMIN'
+		@profile_name = ''
 		
 
 GO
