@@ -1,0 +1,4 @@
+SELECT   @@VERSION 
+SELECT   RTRIM(CAST(SERVERPROPERTY('productversion') AS VARCHAR)) AS [Version], 
+RTRIM(CAST(SERVERPROPERTY ('productlevel') AS VARCHAR)) AS [Level],        
+RTRIM(CAST(SERVERPROPERTY ('edition') AS VARCHAR)) AS [Edition]

@@ -1,0 +1,1 @@
+EXEC sp_dboption "TestAndSamplesDB", "read only", "TRUE";

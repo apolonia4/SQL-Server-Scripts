@@ -1,0 +1,1 @@
+GRANT EXECUTE ON dbo.uspErrorTypeGet TO [MAIN\jamccoy-admin]

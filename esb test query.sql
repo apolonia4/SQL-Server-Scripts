@@ -1,0 +1,2 @@
+exec [Masi].[uspEnterpriseServiceBusDataReceiveEsbPrototype] '<ROOT><Appointment System="Almis"><PilotName>Luigi9</PilotName></Appointment></ROOT>'
+exec [Masi].[uspEnterpriseServiceBusDataReceiveEsbPrototype] '<ROOT><Appointment System="Misle"><CaseId>12345</CaseId><ActivityId>9876</ActivityId></Appointment></ROOT>'
